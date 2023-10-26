@@ -1,10 +1,10 @@
-list = []
+from list_a import _list 
 
 while True:
     try:
-        var = eval(input(">>>"))  
+        var = eval(input("\n>>> "))  
         print(var)
-        if var in list:
+        if var in _list:
             print(f"{var} это число Асемблера")
         else:
             print(f"{var} это не число Асемблера")
